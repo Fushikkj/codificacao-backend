@@ -12,7 +12,7 @@ let frutas = [
 
     app.get('/frutas/:id', (req,res) =>{
    const id = parseInt(req.params.id)
-   const frutas = frutas.find(a => a.id === id)
+   const frutas = frutas.find(f => f.id === id)
     if (!frutas) {
        return res.status(404).json({
          sucess: false,
