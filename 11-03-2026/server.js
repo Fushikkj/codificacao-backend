@@ -10,7 +10,7 @@ let alunos = [
 ]
 
 
-let frutas = [
+let frutas  = [
     { id: 4, nome: "banana", maduro: não },
     { id: 5, nome: "maça", maduro: sim },
     { id: 6, nome: "goiaba", maduro: sim }
